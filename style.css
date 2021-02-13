@@ -14,9 +14,9 @@ body {
 
 header {
   background-image: url(image/code.jpg);
-  background-attachment: fixed !important;
+  background-attachment: fixed;
   background-position: center;
-  background-size: cover !important;
+  background-size: cover;
   background-repeat: no-repeat;
   height: 100vh;
 }
@@ -60,6 +60,13 @@ header {
   }
 }
 
+@media screen and (max-width: 767px) {
+  header {
+    height: 100%;
+    background-attachment: scroll;
+  }
+}
+
 @media screen and (max-width: 576px) {
   #header h1 {
     font-size: 2rem;
@@ -72,10 +79,16 @@ header {
 
 #about {
   background-image: url(image/sketch.jpg);
-  background-attachment: fixed !important;
+  background-attachment: fixed;
   background-position: top;
-  background-size: cover !important;
+  background-size: cover;
   background-repeat: no-repeat;
+}
+
+@media screen and (max-width: 767px) {
+  #about {
+    background-attachment: scroll;
+  }
 }
 
 #about > div {
