@@ -48,7 +48,6 @@ header {
 @media screen and (max-width: 991px) {
   header {
     height: 100%;
-    width: 100%;
   }
 
   #header {
@@ -77,8 +76,6 @@ header {
   background-position: top;
   background-size: cover !important;
   background-repeat: no-repeat;
-  height: 100%;
-  width: 100%;
 }
 
 #about > div {
