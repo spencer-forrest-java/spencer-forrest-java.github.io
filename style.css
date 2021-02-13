@@ -1,5 +1,6 @@
 html,
 body {
+  max-height: 100%;
   max-width: 100%;
   overflow-x: hidden;
 }
@@ -12,10 +13,10 @@ body {
 }
 
 header {
-  background-image: url(image/keyboard.jpg);
-  background-attachment: fixed;
-  background-position: top;
-  background-size: cover;
+  background-image: url(image/code.jpg);
+  background-attachment: fixed !important;
+  background-position: center;
+  background-size: cover !important;
   background-repeat: no-repeat;
   height: 100vh;
 }
@@ -47,6 +48,7 @@ header {
 @media screen and (max-width: 991px) {
   header {
     height: 100%;
+    width: 100%;
   }
 
   #header {
@@ -70,11 +72,13 @@ header {
 }
 
 #about {
-  background-image: url(image/coding.jpg);
-  background-attachment: fixed;
+  background-image: url(image/sketch.jpg);
+  background-attachment: fixed !important;
   background-position: top;
-  background-size: cover;
+  background-size: cover !important;
   background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
 }
 
 #about > div {
