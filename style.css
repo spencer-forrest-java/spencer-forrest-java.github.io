@@ -6,9 +6,10 @@ body {
 }
 
 body {
-  /* background-color: lightgray; */
+  background-color: lightgray;
   font-family: "Poppins", sans-serif;
   font-size: 1rem;
+  width: 100%;
   height: 100%;
 }
 
@@ -95,10 +96,20 @@ header {
   background-color: rgba(0, 0, 0, 0.6);
 }
 
-a :hover {
+footer a :hover {
   color: #007bff;
 }
 
 a i {
   color: black;
+}
+
+.card-header a {
+  color: transparent;
+  display: inline-block;
+}
+
+img.logo {
+  width: 32px;
+  height: 32px;
 }
