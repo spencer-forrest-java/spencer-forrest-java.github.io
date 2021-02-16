@@ -34,7 +34,7 @@ header {
 
 #header > div {
   position: relative;
-  top: 40%;
+  top: 30%;
   height: 20%;
 }
 
@@ -56,7 +56,7 @@ header {
   }
 
   #header > div {
-    top: auto;
+    top: 50%;
     height: auto;
   }
 }
