@@ -100,6 +100,10 @@ footer a :hover {
   color: #007bff;
 }
 
+footer a i {
+  color: #000;
+}
+
 a i {
   color: black;
 }
