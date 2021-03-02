@@ -98,10 +98,12 @@ header {
 
 footer a :hover {
   color: #007bff;
+  fill: #007bff;
 }
 
 footer a i {
   color: #000;
+  fill: #000;
 }
 
 a i {
@@ -116,4 +118,9 @@ a i {
 img.logo {
   width: 32px;
   height: 32px;
+}
+
+svg.cv {
+  width: 77.5px;
+  height: 80px;
 }
